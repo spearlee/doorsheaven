@@ -1,0 +1,298 @@
+/* =====================================
+              CSS RESET
+===================================== */
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video { margin:0; padding:0; border:0; outline:0; font-size:100%; vertical-align:baseline;}
+body {line-height:1;}
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section {display:block;}
+ul li{list-style:none;}
+a {margin: 0; padding: 0; border: 0; vertical-align: baseline; background: transparent; text-decoration: none; color: inherit; display: inline-block;}
+img {vertical-align: bottom;}
+
+/* =====================================
+            Clear Utility
+===================================== */
+.clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+/* =====================================
+            GRID SYSTEM
+===================================== */
+
+[class*="col-"] {
+	float: left;
+	box-sizing: border-box;
+	padding: 0 10px;
+}
+.col-m-1  {width: 8.33%;}
+.col-m-2  {width: 16.66%;}
+.col-m-3  {width: 25%;}
+.col-m-4  {width: 33.33%;}
+.col-m-5  {width: 41.66%;}
+.col-m-6  {width: 50%;}
+.col-m-7  {width: 58.33%;}
+.col-m-8  {width: 66.66%;}
+.col-m-9  {width: 75%;}
+.col-m-10 {width: 83.33%;}
+.col-m-11 {width: 91.66%;}
+.col-m-12 {width: 100%;}
+
+@media(min-width:768px){
+    .col-t-1  {width: 8.33%;}
+    .col-t-2  {width: 16.66%;}
+    .col-t-3  {width: 25%;}
+    .col-t-4  {width: 33.33%;}
+    .col-t-5  {width: 41.66%;}
+    .col-t-6  {width: 50%;}
+    .col-t-7  {width: 58.33%;}
+    .col-t-8  {width: 66.66%;}
+    .col-t-9  {width: 75%;}
+    .col-t-10 {width: 83.33%;}
+    .col-t-11 {width: 91.66%;}
+    .col-t-12 {width: 100%;}
+}
+
+@media(min-width:1024px){
+    .col-d-1  {width: 8.33%;}
+    .col-d-2  {width: 16.66%;}
+    .col-d-3  {width: 25%;}
+    .col-d-4  {width: 33.33%;}
+    .col-d-5  {width: 41.66%;}
+    .col-d-6  {width: 50%;}
+    .col-d-7  {width: 58.33%;}
+    .col-d-8  {width: 66.66%;}
+    .col-d-9  {width: 75%;}
+    .col-d-10 {width: 83.33%;}
+    .col-d-11 {width: 91.66%;}
+    .col-d-12 {width: 100%;}
+}
+/* =====================================
+               pading_left
+===================================== */
+
+
+.pd-l-10 {padding-left: 10px}
+.pd-l-20 {padding-left: 20px}
+.pd-l-30 {padding-left: 30px}
+.pd-l-40 {padding-left: 40px}
+.pd-l-50 {padding-left: 50px}
+.pd-l-60 {padding-left: 60px}
+.pd-l-70 {padding-left: 70px}
+.pd-l-80 {padding-left: 80px}
+.pd-l-90 {padding-left: 90px}
+.pd-l-100 {padding-left: 100px}
+.pd-l-110 {padding-left: 110px}
+.pd-l-120 {padding-left: 120px}
+.pd-l-130 {padding-left: 130px}
+.pd-l-140 {padding-left: 140px}
+.pd-l-150 {padding-left: 150px}
+
+/* =====================================
+               pading_rihght
+===================================== */
+
+
+.pd-r-10 {padding-right: 10px}
+.pd-r-20 {padding-right: 20px}
+.pd-r-30 {padding-right: 30px}
+.pd-r-40 {padding-right: 40px}
+.pd-r-50 {padding-right: 50px}
+.pd-r-60 {padding-right: 60px}
+.pd-r-70 {padding-right: 70px}
+.pd-r-80 {padding-right: 80px}
+.pd-r-90 {padding-right: 90px}
+.pd-r-100 {padding-right: 100px}
+.pd-r-110 {padding-right: 110px}
+.pd-r-120 {padding-right: 120px}
+.pd-r-130 {padding-right: 130px}
+.pd-r-140 {padding-right: 140px}
+.pd-r-150 {padding-right: 150px}
+
+/* =====================================
+               pading_top
+===================================== */
+
+
+.pd-t-10 {padding-top: 10px}
+.pd-t-20 {padding-top: 20px}
+.pd-t-30 {padding-top: 30px}
+.pd-t-40 {padding-top: 40px}
+.pd-t-50 {padding-top: 50px}
+.pd-t-60 {padding-top: 60px}
+.pd-t-70 {padding-top: 70px}
+.pd-t-80 {padding-top: 80px}
+.pd-t-90 {padding-top: 90px}
+.pd-t-100 {padding-top: 100px}
+.pd-t-110 {padding-top: 110px}
+.pd-t-120 {padding-top: 120px}
+.pd-t-130 {padding-top: 130px}
+.pd-t-140 {padding-top: 140px}
+.pd-t-150 {padding-top: 150px}
+
+/* =====================================
+               pading_bottom
+===================================== */
+
+
+.pd-b-10 {padding-bottom: 10px}
+.pd-b-20 {padding-bottom: 20px}
+.pd-b-30 {padding-bottom: 30px}
+.pd-b-40 {padding-bottom: 40px}
+.pd-b-50 {padding-bottom: 50px}
+.pd-b-60 {padding-bottom: 60px}
+.pd-b-70 {padding-bottom: 70px}
+.pd-b-80 {padding-bottom: 80px}
+.pd-b-90 {padding-bottom: 90px}
+.pd-b-100 {padding-bottom: 100px}
+.pd-b-110 {padding-bottom: 110px}
+.pd-b-120 {padding-bottom: 120px}
+.pd-b-130 {padding-bottom: 130px}
+.pd-b-140 {padding-bottom: 140px}
+.pd-b-150 {padding-bottom: 150px}
+
+/* =====================================
+              margin_left
+===================================== */
+
+.mr-l-10 {margin-left: 10px;}
+.mr-l-20 {margin-left: 20px;}
+.mr-l-30 {margin-left: 30px;}
+.mr-l-40 {margin-left: 40px;}
+.mr-l-50 {margin-left: 50px;}
+.mr-l-60 {margin-left: 60px;}
+.mr-l-70 {margin-left: 70px;}
+.mr-l-80 {margin-left: 80px;}
+.mr-l-90 {margin-left: 90px;}
+.mr-l-100 {margin-left: 100px;}
+.mr-l-110 {margin-left: 110px;}
+.mr-l-120 {margin-left: 120px;}
+.mr-l-130 {margin-left: 130px;}
+.mr-l-140 {margin-left: 140px;}
+.mr-l-150 {margin-left: 150px;}
+
+/* =====================================
+              margin_right
+===================================== */
+
+.mr-r-10 {margin-right: 10px;}
+.mr-r-20 {margin-right: 20px;}
+.mr-r-30 {margin-right: 30px;}
+.mr-r-40 {margin-right: 40px;}
+.mr-r-50 {margin-right: 50px;}
+.mr-r-60 {margin-right: 60px;}
+.mr-r-70 {margin-right: 70px;}
+.mr-r-80 {margin-right: 80px;}
+.mr-r-90 {margin-right: 90px;}
+.mr-r-100 {margin-right: 100px;}
+.mr-r-110 {margin-right: 110px;}
+.mr-r-120 {margin-right: 120px;}
+.mr-r-130 {margin-right: 130px;}
+.mr-r-140 {margin-right: 140px;}
+.mr-r-150 {margin-right: 150px;}
+
+
+/* =====================================
+              margin_top
+===================================== */
+
+.mr-t-10 {margin-top: 10px;}
+.mr-t-20 {margin-top: 20px;}
+.mr-t-30 {margin-top: 30px;}
+.mr-t-40 {margin-top: 40px;}
+.mr-t-50 {margin-top: 50px;}
+.mr-t-60 {margin-top: 60px;}
+.mr-t-70 {margin-top: 70px;}
+.mr-t-80 {margin-top: 80px;}
+.mr-t-90 {margin-top: 90px;}
+.mr-t-100 {margin-top: 100px;}
+.mr-t-110 {margin-top: 110px;}
+.mr-t-120 {margin-top: 120px;}
+.mr-t-130 {margin-top: 130px;}
+.mr-t-140 {margin-top: 140px;}
+.mr-t-150 {margin-top: 150px;}
+
+
+/* =====================================
+              margin_bottom
+===================================== */
+
+.mr-b-10 {margin-bottom: 10px;}
+.mr-b-20 {margin-bottom: 20px;}
+.mr-b-30 {margin-bottom: 30px;}
+.mr-b-40 {margin-bottom: 40px;}
+.mr-b-50 {margin-bottom: 50px;}
+.mr-b-60 {margin-bottom: 60px;}
+.mr-b-70 {margin-bottom: 70px;}
+.mr-b-80 {margin-bottom: 80px;}
+.mr-b-90 {margin-bottom: 90px;}
+.mr-b-100 {margin-bottom: 100px;}
+.mr-b-110 {margin-bottom: 110px;}
+.mr-b-120 {margin-bottom: 120px;}
+.mr-b-130 {margin-bottom: 130px;}
+.mr-b-140 {margin-bottom: 140px;}
+.mr-b-150 {margin-bottom: 150px;}
+
+
+
+/* =====================================
+               Layout
+===================================== */
+.l-center {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+
+/* =====================================
+               Padding Utility
+===================================== */
+.pd-0 {padding: 0;}
+
+
+/* =====================================
+               Table Utility
+===================================== */
+
+.display-table {display: table;}
+.display-table-cell {
+                    display: table-cell;
+                    text-align: center;
+                    vertical-align: middle;
+}
+
+
+
+/* =====================================
+            floot
+===================================== */
+.fl {float: left;}
+
+.fr {float: right;}
+
+
+
+/* =====================================
+           color
+===================================== */
+.c_red {color: #FF0000;}
+.c_main {color: #035FC8;}
+.f_bold {font-weight: 500;}
+
+
+
+
+
